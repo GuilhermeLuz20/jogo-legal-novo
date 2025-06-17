@@ -23,6 +23,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfile  # Caminho para o Dockerfile
+          file: ./dockerfile  # Caminho para o Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/jogo-legal-novo:latest
