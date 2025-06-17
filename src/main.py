@@ -28,3 +28,4 @@ while tentativas > 0:
 if tentativas == 0:
     print(f"❌ Suas tentativas acabaram. O número era {numero_secreto}.")
     print("Obrigado por jogar! Até a próxima! 🎮")
+    print("Siga-nos nas redes sociais para mais jogos e novidades!")
