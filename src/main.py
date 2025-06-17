@@ -1,6 +1,6 @@
 import random
 
-print("🎯 Bem-vindo ao Jogo de Adivinhação!")
+print(" Bem-vindo ao Jogo de Adivinhação!")
 numero_secreto = random.randint(1, 100)
 tentativas = 10
 
